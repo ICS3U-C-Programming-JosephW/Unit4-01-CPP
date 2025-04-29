@@ -60,7 +60,7 @@ int main() {
         }
     }
     /* Runs if stof() could not convert the user's string
-    input into an integer. */
+    input into a float. */
     catch (std::invalid_argument) {
         /* Display to the user that they did not
         enter a positive integer. */
