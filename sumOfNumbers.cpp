@@ -59,7 +59,7 @@ int main() {
             << " is not a positive integer.\n";
         }
     }
-    /* Runs if std::stoi() could not convert the user's string
+    /* Runs if stof() could not convert the user's string
     input into an integer. */
     catch (std::invalid_argument) {
         /* Display to the user that they did not
